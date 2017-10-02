@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  colorapi:
+    image: colorapi
+    build:
+      context: ./ColorAPI
+      dockerfile: Dockerfile
